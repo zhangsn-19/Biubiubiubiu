@@ -1,6 +1,8 @@
 <template>
   <div class="nav-wrapper">
-    <div class="bar-title" @click.stop="toHome">绍兴综保区 智慧安防平台</div>
+    <div class="bar-title" @click.stop="toHome">绍兴综保区 智慧安防平台
+    <img src="../../../public/static/ui.png" :height="30"/>
+    </div>
     <div class="time">{{ date }} {{ time }}</div>
     <div class="mapChoose">
       <span>

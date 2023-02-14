@@ -23,7 +23,8 @@
       <z-col :span="10">
         <count-to :value="sum" suffix="万" :speed="20" />
         <div style="width:100%;height:85%">
-          <scatter-map />
+<!--          <scatter-map />-->
+          <img src="../../../public/static/guihua.jpg" :height="436" style="opacity:0.5"/>
         </div>
       </z-col>
       <z-col :span="7">
@@ -57,7 +58,6 @@ import countTo from "@/components/countTo/index";
 import {
   cityCount,
   typeCount,
-  scatterMap,
   wordChart,
   funnelChart,
   lineChart,
@@ -75,7 +75,6 @@ export default {
     boxContainer,
     cityCount,
     typeCount,
-    scatterMap,
     barChart,
     wordChart,
     funnelChart,
