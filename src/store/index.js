@@ -8,8 +8,8 @@ export default createStore({
         code: 100000,
       },
     ],
-    year: 2016,
-    sum: 0,
+    year: 2022,
+    sum: 100000,
   },
   mutations: {
     ADD_INFO: (state, info) => {

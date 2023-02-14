@@ -7,27 +7,27 @@ module.exports = [
         code: 200,
         data: [
           {
-            name: "电脑",
+            name: "执勤人员",
             value: (Math.random() * 1500).toFixed(2),
           },
           {
-            name: "手机",
+            name: "海关人员",
             value: (Math.random() * 1500).toFixed(2),
           },
           {
-            name: "汽车",
+            name: "未经许可人员",
             value: (Math.random() * 1500).toFixed(2),
           },
           {
-            name: "空调",
+            name: "外企工作人员",
             value: (Math.random() * 1500).toFixed(2),
           },
           {
-            name: "冰箱",
+            name: "安保人员",
             value: (Math.random() * 1500).toFixed(2),
           },
           {
-            name: "电视",
+            name: "其他许可人员",
             value: (Math.random() * 1500).toFixed(2),
           },
         ],
@@ -42,51 +42,51 @@ module.exports = [
         code: 200,
         data: [
           {
-            name: "小米",
+            name: "传送带异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "联想",
+            name: "货物异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "华为",
+            name: "人员属性异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "格力",
+            name: "人员路径异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "海尔",
+            name: "报关异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "华硕",
+            name: "检验异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "法拉利",
+            name: "其他异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "苹果",
+            name: "火灾异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "三星",
+            name: "烟雾异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "索尼",
+            name: "其他异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "劳斯莱斯",
+            name: "其他异常",
             value: (Math.random() * 1000).toFixed(2),
           },
           {
-            name: "保时捷",
+            name: "其他异常",
             value: (Math.random() * 1000).toFixed(2),
           },
         ],
@@ -101,27 +101,27 @@ module.exports = [
         code: 200,
         data: [
           {
-            name: "18岁以下",
+            name: "枪机",
             value: parseInt(Math.random() * 1200),
           },
           {
-            name: "18-25",
+            name: "球机",
             value: parseInt(Math.random() * 2000),
           },
           {
-            name: "25-35",
+            name: "报警器",
             value: parseInt(Math.random() * 1800),
           },
           {
-            name: "35-50",
+            name: "红外摄像头",
             value: parseInt(Math.random() * 1700),
           },
           {
-            name: "50-65",
+            name: "烟雾传感器",
             value: parseInt(Math.random() * 1500),
           },
           {
-            name: "65以上",
+            name: "门禁设备",
             value: parseInt(Math.random() * 1400),
           },
         ],

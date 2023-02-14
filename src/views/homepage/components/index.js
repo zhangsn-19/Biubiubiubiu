@@ -5,3 +5,4 @@ export { default as wordChart } from "./wordChart.vue";
 export { default as funnelChart } from "./funnelChart.vue";
 export { default as lineChart } from "./lineChart.vue";
 export { default as liquidChart } from "./liquidChart.vue";
+export { default as barChart } from "./barChart.vue";

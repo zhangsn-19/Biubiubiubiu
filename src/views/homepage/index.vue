@@ -29,18 +29,18 @@
       <z-col :span="7">
         <div class="echartList">
           <div class="chart-item">
-            <box-container :boxTitle="year + '年客户年龄分布'">
+            <box-container :boxTitle="year + '年安防设施分布（新增加留存）'">
               <funnel-chart />
             </box-container>
           </div>
           <div class="chart-item">
-            <box-container :boxTitle="year + '年公司市值'">
+            <box-container :boxTitle="year + '年入驻公司总产值'">
               <liquid-chart />
             </box-container>
           </div>
           <div class="chart-item">
-            <box-container :boxTitle="year + '年同行业销售额度对比'">
-              <line-chart />
+            <box-container :boxTitle="year + '年出货流转量统计'">
+              <bar-chart />
             </box-container>
           </div>
         </div>
@@ -61,6 +61,7 @@ import {
   wordChart,
   funnelChart,
   lineChart,
+  barChart,
   liquidChart,
 } from "./components";
 import useResize from "@/componentApi/useResize.js";
@@ -75,6 +76,7 @@ export default {
     cityCount,
     typeCount,
     scatterMap,
+    barChart,
     wordChart,
     funnelChart,
     lineChart,
@@ -84,7 +86,6 @@ export default {
   },
   setup(props, context) {
     const { year, sum } = useResize();
-
     return {
       year,
       sum,

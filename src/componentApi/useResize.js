@@ -9,7 +9,9 @@ export default function() {
   let abcode = computed(
     () => store.state.mapInfo[store.state.mapInfo.length - 1].code
   );
-  let year = computed(() => store.state.year);
+  let year = computed(() => {
+    return store.state.year;
+  });
   let parentInfo = computed(() => store.state.mapInfo);
   const sum = computed(() => store.state.sum);
 

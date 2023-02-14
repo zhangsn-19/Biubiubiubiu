@@ -108,7 +108,7 @@ export default {
               },
               label: {
                 normal: {
-                  formatter: data + "万",
+                  formatter: data + "亿元",
                   textStyle: {
                     fontSize: 18,
                   },

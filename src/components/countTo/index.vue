@@ -2,13 +2,29 @@
   <div class="chartNum">
     <span class="label">监控数据总量</span>
     <div
-      class="box-item"
-      v-for="(item, index) in endVal.toString()"
-      :key="index"
-    >
-      <span>{{ item }}</span>
+      class="box-item">
+<!--      v-for="(item, index) in endVal.toString()"-->
+<!--      :key="index"-->
+<!--      <span{{ item }}></span>-->
+      <span>1</span>
     </div>
-    <span>{{ suffix }} 分钟视频 </span>
+    <div class="box-item">
+      <span>2</span>
+    </div>
+    <div class="box-item">
+      <span>3</span>
+    </div>
+    <div class="box-item">
+      <span>0</span>
+    </div>
+    <div class="box-item">
+      <span>6</span>
+    </div>
+    <div class="box-item">
+      <span>0</span>
+    </div>
+<!--    <span>{{ suffix }}</span>-->
+    <span>万 分钟视频 </span>
   </div>
 </template>
 
