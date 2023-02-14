@@ -1,11 +1,11 @@
 <template>
   <div class="nav-wrapper">
-    <div class="bar-title" @click.stop="toHome">大数据分析系统</div>
+    <div class="bar-title" @click.stop="toHome">绍兴综保区 智慧安防平台</div>
     <div class="time">{{ date }} {{ time }}</div>
     <div class="mapChoose" v-if="parentInfo.length > 1 && isHome">
       <span v-for="(item, index) in parentInfo" :key="item.code">
         <span class="title" @click="chooseArea(item, index)">{{
-          item.cityName == "全国" ? "中国" : item.cityName
+          item.cityName == "全国" ? "绍兴" : "综保区"
         }}</span>
         <span class="icon" v-show="index + 1 != parentInfo.length">></span>
       </span>

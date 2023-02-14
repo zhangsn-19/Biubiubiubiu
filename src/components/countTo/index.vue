@@ -1,6 +1,6 @@
 <template>
   <div class="chartNum">
-    <span class="label">销售总量</span>
+    <span class="label">监控数据总量</span>
     <div
       class="box-item"
       v-for="(item, index) in endVal.toString()"
@@ -8,7 +8,7 @@
     >
       <span>{{ item }}</span>
     </div>
-    <span>{{ suffix }}</span>
+    <span>{{ suffix }} 分钟视频 </span>
   </div>
 </template>
 

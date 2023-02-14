@@ -4,17 +4,17 @@
       <z-col :span="7">
         <div class="echartList">
           <div class="chart-item">
-            <box-container :boxTitle="year + '年销售额度排名'">
+            <box-container :boxTitle="year + '设备异常情况总量统计'">
               <city-count />
             </box-container>
           </div>
           <div class="chart-item">
-            <box-container :boxTitle="year + '年销售种类占比'">
+            <box-container :boxTitle="year + '人员异常情况总量统计'">
               <type-count />
             </box-container>
           </div>
           <div class="chart-item">
-            <box-container :boxTitle="year + '年销售品牌占比'">
+            <box-container :boxTitle="year + '监控视频异常情况总量统计'">
               <word-chart />
             </box-container>
           </div>
